@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs
+    </title>
+</head>
+
+<body>
+    <h1>Tipos de inputs</h1>
+
+    <!--Input: Es una caja que puede ser de texto/numeros/fechas/colores/archivos/checkbox/radiobutton-->
+
+    <input type="text" placeholder="Ingresa tu nombre" value="juanito sapata" name="nombre" id="mi_apellido" />
+
+    <!--number-->
+    <h2>Input number</h2>
+    <input type="number" placeholder="Ingrese su edad" name="edad" id="mi_edad" />
+    <h2>Input email y passsword</h2>
+    <input type="email" placeholder="Ingrese correo" name="correo" id="mi_correo" />
+
+    <input type="password" placeholder="Ingrese clave" name="contraseña" id="mi_contraseña" />
+
+    <input type="submit" value="Ingresar" />
+
+    <!--Inputs de tipo fecha y hora-->
+    <input type="date" />
+    <input type="time" />
+    <input type="datetime-local">
+
+
+    <h2>Input tipo Archivo</h2>
+    <input type="file" accept="audio/*">
+    <p>Solo audios</p>
+    <input type="file" accept="image/*">
+    <p>Solo imagenes</p>
+    <input type="file" accept="video/*">
+    <p>Solo video</p>
+
+
+    <!--Inoputs de tipo RADIO -CHECKBOX-->
+    <h2>Inputs de tipo RADIO - CHEKBOX</h2>
+    <p>
+        <input type="radio" name="opcion_registro" checked />RADIO1
+        <br />
+        <input type="radio" name="opcion_registro" checked />RADIO2 
+        <br />
+        <input type="radio" name="opcion_registro" checked />RADIO3
+
+    </p>
+
+<p>checkbox</p>
+    <p>
+        <!--"[]" hace que se pueda selecionar barios campos-->
+        <input type="checkbox" name="opcion_checkbox[]" checked />RADIO1
+        <br />
+        <input type="checkbox" name="opcion_checkbox[]" />RADIO2 
+        <br />
+        <input type="checkbox" name="opcion_checkbox[]" />RADIO3
+
+    </p>
+
+    <h2>Input tipo color</h2>
+    <input type="color" />
+    <h2>Input rango</h2>
+    <input type="range">
+    <h2>Input buscar</h2>
+    <input type="search">
+    <h2>Input telefono</h2>
+    <input type="tel"  maxlength="9">
+
+</body>
+
+</html>
