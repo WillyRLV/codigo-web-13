@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+
+    <h1>Tablas</h1>
+
+
+    <!--ESTRUCTURA DE TABLAS-->
+    <table border="3" bgcolor="#9CBF6F">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Correo</th>
+                <th>Direccion</th>
+                <th>Celular</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr bgcolor="#8291BF">
+                <td bgcolor="#BF705C">PEPE</td>
+                <td>ZAPATA</td>
+                <td>PEP@GMAIL.COM</td>
+                <td>av.universitaria</td>
+                <td>456546454</td>
+            </tr>
+
+            <tr bgcolor="#8291BF">
+                <td bgcolor="#BF705C">juan</td>
+                <td>flores</td>
+                <td>juan@hotmail.com</td>
+                <td>av.universitaria</td>
+                <td>456767776</td>
+            </tr>
+
+            <tr bgcolor="#8291BF">
+                <td bgcolor="#BF705C">luis</td>
+                <td>cuadrado</td>
+                <td>lui@hotmail.com</td>
+                <td>av.universitaria</td>
+                <td>87765655</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+<!--ROWSPAN AND COLSPAN-->
+
+<h1>table de alumnos</h1>
+
+<table border="3" bgcolor="#9CBF6F">
+    <thead>
+        <tr>
+            <th>Curso</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr bgcolor="#8291BF">
+            <td bgcolor="#BF705C" rowspan="2">Ingles</td>
+            <td>pepe</td>
+            <td>zapata</td>
+            <td>PEP@GMAIL.COM</td>
+        </tr>
+
+        <tr bgcolor="#8291BF">
+            <td>juan</td>
+            <td>zapata</td>
+            <td>juan@hotmail.com</td>
+
+        </tr>
+        <tr bgcolor="#8291BF">
+            <td bgcolor="#BF705C" rowspan="4">Mate</td>
+            <td>mateo</td>
+            <td>zapata</td>
+            <td>mat@hotmail.com</td>
+    
+        </tr>
+
+        <tr bgcolor="#8291BF">
+            <td>Mateo</td>
+            <td>zapata</td>
+            <td>mat@hotmail.com</td>
+
+
+        </tr>
+        <tr bgcolor="#8291BF">
+            <td>Mateo</td>
+            <td>zapata</td>
+            <td>mat@hotmail.com</td>
+     
+
+        </tr>
+         <tr bgcolor="#8291BF">
+            <td>Mateo</td>
+            <td>cuadrado</td>
+            <td>lui@hotmail.com</td>
+          
+
+        </tr>
+
+        <tr bgcolor="#8291BF">
+            <td bgcolor="#BF705C" rowspan="2">Fisica</td>
+            <td colspan="2">javier suarez</td>
+            
+            <td>juan@hotmail.com</td>
+        </tr>
+
+        <tr bgcolor="#8291BF">
+            <td colspan="2">javier suarez</td>
+            <td>jav@hotmail.com</td>
+
+        </tr>
+
+        
+    </tbody>
+</table>
+
+
+</body>
+
+</html>
