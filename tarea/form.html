@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <div align=center >
+        <h1>REGISTRO USUARIO</h1>
+        <form action="">
+        <hr size="5px" width="500px" color="black"/>
+
+        <span>Nombres</span> &nbsp; &nbsp;    <input type="text" placeholder="Ingrese datos" name="Nombres" required>
+        <br/><br/>
+        <span>Apellidos</span> &nbsp; &nbsp;   <input type="text" placeholder="Ingrese apellidos" name="Apellidos" required>
+        <br/><br/>
+        <span>Correo</span> &nbsp; &nbsp; &nbsp; &nbsp;   <input type="email" placeholder="Ingrese correo" name="email" required>
+        <br/><br/>
+        <span>Dni</span> &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;    <input type="number" placeholder="Ingrese dni" required minlength="8">
+        <br/><br/>
+        <span>Sexo</span>&nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        <select name="select" > 
+            <option value="empty">.........................................</option>
+            <option value="Varón">Varón</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br/><br/>
+        <span>Nacimiento</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="date" required>
+        <br/><br/>
+        <span>Teléfono</span> &nbsp; &nbsp; &nbsp;  <input type="tel" placeholder="su teléfino" required maxlength="9">
+        <br/><br/>
+        <input type="submit" value="Registrar">
+        
+
+        
+    </form>
+
+    </div>
+
+</body>
+
+</html>
