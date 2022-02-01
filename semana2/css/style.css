@@ -1,0 +1,132 @@
+
+body {
+    font-family:  Helvetica;
+}
+
+h1  {
+
+color: #a50c20;   
+background-color: blanchedalmond;
+}
+
+h2 {
+    color: #705d50;
+    background-color: darkcyan;
+}
+
+h3 {
+    color: #82b182;
+    background-color: grey;
+}
+
+p:first-child {
+    color: rgb(99, 13, 13);
+    background-color: lightslategray;
+}
+
+a {
+color: red;
+
+}
+
+
+#cont-1 {
+    text-align: center;
+    background-color: salmon ;
+
+}
+
+#cont-2 {
+    text-align: right;
+    background-color: yellow;
+
+}
+
+
+.cont-main {background-color: violet;
+padding: 30px;}
+
+
+.btn-Ingresar {
+    color: white;
+    background-color: #b87b0c;
+    border: none;
+     border-radius: 8px; 
+     padding: 10px;
+}
+
+.btn-Registro {
+    color: white;
+    background-color: #1c82e2;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.estilo-btn {
+    font-size: 25px;
+}
+
+
+
+.cont-form {
+    
+    border: 5px solid rgb(255, 136, 0);
+    border-radius: 8px;
+}
+
+.inter-form {
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-form {
+    color: royalblue;
+}
+
+.input-form {
+
+    border:3px solid #1c82e2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+}
+
+.other-width {
+    width: 100px;
+}
+
+.other-width2 {
+    width: 221px;
+}
+
+.style-button {
+    
+    background-color: #54aeb9;
+    width: 110px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.style-button:hover {
+    
+  background-color: darkgreen;
+  transition: .5s;
+}
+
+.btn-ingresar {
+    color:#705d50 ;
+}
+
+.btn-ingresar:hover {
+    color:#221c18 ;
+    font-size: 18px;
+    transition: .5s;
+}
+
+
+/**/
+
+.inter-form h1 {
+    background-color: darkgreen;
+}

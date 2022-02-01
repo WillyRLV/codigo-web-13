@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica;
+}
+
+
+.link-ref {
+
+    background-color: rgb(240, 199, 16);
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-ref:hover {
+    background-color: sandybrown;
+}
+
+
+.content-main p, .content-main{
+    text-align: center;
+}
+
+.content-main p {
+   width: 500px;
+   margin: auto;
+}
+
+.perfil {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.btn github {
+    border:2px solid black;
+    border-radius: 8px;
+    padding:10px;
+    color: #000;
+    text-decoration: none;
+}
