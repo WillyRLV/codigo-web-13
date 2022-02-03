@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+section {
+  background-color: hsla(216, 55%, 11%, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.tarjeta {
+  width: 300px;
+  background-color: hsl(214, 50%, 16%);
+  border-radius: 14px;
+  box-shadow: 0px 3px 47px -1px rgba(0, 0, 0, 0.64);
+
+}
+
+.cubo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.cubo img {
+  border-radius: 5px;
+  width: 260px;
+}
+
+h4 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.img_over {
+  position: absolute;
+  display: inline-block;
+  background-color: hsla(178, 100%, 50%, 0.541); ;
+  width: 260px;
+  height: 260px;
+  border-radius: 5px;
+  top: 257px;
+  left: 830px;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img_over:hover {
+opacity: 1;
+}
+
+/*SEGUNDO BLOQUE*/
+
+.bloque-2 {
+  margin: 0 24px 0 25px;
+}
+
+div span img {
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
+p {
+  color: hsla(215, 52%, 70%, 0.63);
+  height: 50px;
+ 
+}
+
+.icons {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-et {
+  color: hsl(178, 100%, 50%);
+}
+
+.text-cl {
+  color: hsl(215, 51%, 70%);
+  cursor: pointer;
+}
+
+/*BLOQUE 3*/
+
+.bloque-autor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-right: 15px;
+}
+
+.first {
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+
+h4:hover,.name:hover {
+   color: hsl(178, 100%, 50%);
+   cursor: pointer;
+}
