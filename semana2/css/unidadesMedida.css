@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+.titulo{
+font-size: 4em;
+color: rebeccapurple;
+}
+
+.parrafo {
+    font-size: 50px;
+}
+
+.banner {
+    background-color: rgb(49, 191, 226);
+    height: 30vh;
+    width: 60%;
+}
+
+
+.banner-medio {
+    height: 20vh;
+    background-color: rgb(195, 25, 218);
+    width: 80%;
+}
+
+.banner-dos {
+    height: 40vh;
+    background-color: rgb(65, 112, 131);
+    width: 90%;
+}
+
+.banner-tres {
+    height: 100vh;  
+    background-color: red; 
+    width: 90%;
+}
+
+.banner-cuatro {
+    background-color: rebeccapurple;
+    height: 40vh;
+    width: 50%;
+}
+
+.banner-cinco   {
+  
+    width: 300px;
+    height: 300px;
+    border: 2px solid teal;
+    margin: auto;
+    text-align: center;    
+
+}
+
+

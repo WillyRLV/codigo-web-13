@@ -1,0 +1,49 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+body {
+    font-family: Arial;
+}
+
+.contenedor p {
+    color: red;
+}
+
+.contenedor2 h2{
+    color: #aba;
+}
+
+.contenedor-3 a img {
+    border: 2px solid rgb(27, 117, 236);
+}
+
+.menu-navegacion {
+    margin: 20px;
+}
+
+ /*ul > li  {
+    border: 2px solid black, 
+}*/
+
+.link-navegacion {
+    border: 2px solid rgb(234, 117, 236);
+}
+
+input[type="email"] {
+
+    background-color: rgb(228, 79, 10);
+}
+
+input[type="text"] {
+
+    background-color: rgb(0, 255, 170);
+}
+
+
+input[type="password"] {
+
+    background-color: rgb(0, 255, 170);
+}

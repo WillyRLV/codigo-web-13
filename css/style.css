@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 body {
     font-family: Helvetica;
 }
@@ -7,9 +11,10 @@ body {
 
     background-color: rgb(240, 199, 16);
     color: black;
-    padding: 10px;
     text-decoration: none;
+    padding: 10px;
     border-radius: 5px;
+
 }
 
 .link-ref:hover {
@@ -17,24 +22,46 @@ body {
 }
 
 
-.content-main p, .content-main{
-    text-align: center;
-}
 
-.content-main p {
+.content-main  {
+   text-align: center;
    width: 500px;
    margin: auto;
+   height: 70vh;
+
 }
 
 .perfil {
     border-radius: 50%;
     border: 2px solid black;
+   
 }
 
-.btn github {
+.btn-github {
     border:2px solid black;
     border-radius: 8px;
     padding:10px;
     color: #000;
     text-decoration: none;
+    background-color: white;
+    
 }
+
+.btn-github img {
+    transform: translateY(5px);
+}
+
+.ref-port {
+    border-radius: 30px;
+}
+
+.cont-clases {
+    height: 100vh;
+    background-color: rgb(193, 229, 250);
+}
+
+
+
+
+
+
