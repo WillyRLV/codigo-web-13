@@ -11,8 +11,6 @@ body {
 
 .nav {
   display: flex;
-  width: 90%;
-  margin: auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -82,11 +80,9 @@ body {
 
 .section-three {
   display: flex;
-  width: 90%;
-  margin: auto;
   justify-content: space-evenly;
   align-items: center;
-  height: 50vh;
+  height: 70vh;
 }
 
 .number {
@@ -108,7 +104,7 @@ body {
   height: 200px;
 }
 
-bg-bot {
+.bg-bot {
   background: url("../../imagenes/reto2/bg-section-bottom-desktop-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +116,7 @@ bg-bot {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 40vh;
   background-color: hsl(207, 100%, 98%);
 }
 
@@ -229,3 +225,133 @@ bg-bot {
   padding-right: 30px;
   font-weight: 550;
 }
+
+
+/*Responsive*/
+
+@media only screen and (max-width:480px) {
+
+/*  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  */
+  .nav div {
+    padding: 5px 0 0 5px;
+ 
+  }
+  
+  
+
+  .img-logo{
+    padding-left: 15px;
+  }
+
+  .button {
+  
+    margin-right: 15px;
+  }
+
+
+  .section-one {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .title {
+    font-size: 2em;
+  }
+  
+  .text-normal{
+    width: 80%;
+  }
+
+  .img-mkp{
+    width: 400px;
+
+  }
+
+  .section-three{
+    flex-direction: column;
+
+
+  }
+  
+  .section-four {
+    flex-direction: column-reverse;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .section-five {
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .section-six {
+    flex-direction: column-reverse;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-desktop {
+    width: 300px;
+  }
+
+  .title-sections{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    
+  }
+  .text-sections {
+    width: 100%;
+    text-align: center;
+  }
+  
+.text-sec {
+  text-align: center;
+}
+
+.bg-top {
+  background: url("../img/bg-section-top-mobile-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+
+.bg-bot {
+  background: url("../img/bg-section-bottom-mobile-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.bg-top-dark {
+  background: url("../img/bg-footer-top-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.footer {
+  flex-direction: column-reverse;
+  height: 90vh;
+}
+
+.text-footer {
+
+  width: 90%;
+}
+
+
+}
+
