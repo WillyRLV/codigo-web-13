@@ -1,0 +1,71 @@
+.card{
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: -2px 16px 18px -11px rgba(0,0,0,0.66);
+   
+}
+.text-subtitle{
+    transform: translateY(-30px);
+    opacity: 0;
+    transition: 0.4s;
+    
+
+    
+}
+
+.img{
+    transition: 0.5s;
+    transform: translateY(60px);
+    z-index: 30;
+ 
+
+}
+
+.img-fluid {
+    box-shadow: -2px 48px 43px -28px rgba(0,0,0,0.35);
+    overflow: hidden;
+}
+
+.btn {
+    z-index: 20;
+    opacity: 0;
+    transition: 0.5s;
+}
+.num{
+    opacity: 0;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+.card:hover .text-subtitle {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.card:hover .num,.card:hover .btn {
+    opacity: 1;
+}
+.card:hover .img {
+
+transform: translateY(0);
+transform:  scale(0.8);
+transition: 0.7s;
+}
+
+.card {
+    height: 270px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.feature {
+    font-weight: bold;
+    color:dimgrey;
+
+}
+

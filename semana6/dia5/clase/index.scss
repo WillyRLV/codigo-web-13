@@ -1,0 +1,17 @@
+$bg-dark: rgb(22,52,151);
+$text-dark:rgb(255,255,255);
+
+//light mode
+$bg-light:rgb(37, 144, 64);
+$text-light:rgb(0, 0, 0);
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: $bg-light;
+    color: $text-light;
+}
+
+body[data-mode="dark"]{
+    background-color: $bg-dark;
+    color: $text-dark;
+}

@@ -1,0 +1,11 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #259040;
+  color: black;
+}
+
+body[data-mode="dark"] {
+  background-color: #163497;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,80 @@
+//variables es sass
+//*En SASS podemos usar variables para guardar colores , primarios , secundarios ,extras.
+//*fuentes - tips de letra
+//* logica puede ser mostrar o no mostrar objetos
+
+$color-red:red;
+$bg-color: blue;
+$padding-1:10px;
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New",'Courier New', Courier, monospace;
+    background-color: $bg-color;
+}
+
+h1{
+    color: $color-red;
+}
+
+
+@mixin alert($bg:green){
+    background-color: $bg;
+    padding: $padding-1;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.success {
+    @include alert;
+}
+
+
+.info {
+    @include alert($bg:rgb(37,194,241));
+}
+
+
+.warning {
+    @include alert($bg:rgb(156, 66, 149));
+}
+
+
+.danger {
+    @include alert($bg:rgb(168, 199, 66));
+}
+
+
+@mixin gen-icon ($name, $icon, $color, $size){
+
+    .icon-#{$name} {
+        background: url("./img/#{$icon}");
+        border: solid 5px $color;
+        width: $size;
+        height: $size;
+        background-size: cover;
+    }
+    
+}
+
+
+@include gen-icon("phone","phone.jpeg" ,rgb(255, 0, 0) ,400px );
+@include gen-icon("laptop","laptop.png" ,rgb(47, 175, 85) ,400px );
+@include gen-icon("mail","mail.jpeg" ,rgb(0, 195, 255) ,400px );
+@include gen-icon("search","search.png" ,rgb(225, 0, 255) ,400px );
+
+
+//bluce con sass
+// for
+@for $i from 1 through 5 {
+
+    .container-#{i}{
+        background-color: rgb($i + 120, $i + 100, $i + 32);
+        height: 200px * $i / 2;
+
+    }
+
+}
+
+    

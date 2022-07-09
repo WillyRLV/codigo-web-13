@@ -1,0 +1,19 @@
+{
+  "name": "dia4",
+  "version": "1.0.0",
+  "description": "proyecto NODE",
+  "main": "prueba.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "william",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-format": "^4.0.4",
+    "express": "^4.17.3",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New",'Courier New', Courier, monospace;
+  background-color: blue;
+}
+
+h1 {
+  color: red;
+}
+
+.success {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.info {
+  background-color: #25c2f1;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.warning {
+  background-color: #9c4295;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.danger {
+  background-color: #a8c742;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.icon-phone {
+  background: url("./img/phone.jpeg");
+  border: solid 5px red;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+
+.icon-laptop {
+  background: url("./img/laptop.png");
+  border: solid 5px #2faf55;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+
+.icon-mail {
+  background: url("./img/mail.jpeg");
+  border: solid 5px #00c3ff;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+
+.icon-search {
+  background: url("./img/search.png");
+  border: solid 5px #e100ff;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+
+.container-i {
+  background-color: #796521;
+  height: 100px;
+}
+
+.container-i {
+  background-color: #7a6622;
+  height: 200px;
+}
+
+.container-i {
+  background-color: #7b6723;
+  height: 300px;
+}
+
+.container-i {
+  background-color: #7c6824;
+  height: 400px;
+}
+
+.container-i {
+  background-color: #7d6925;
+  height: 500px;
+}
+/*# sourceMappingURL=estilos.css.map */

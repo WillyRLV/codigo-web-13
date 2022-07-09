@@ -1,0 +1,34 @@
+body {
+    font-family: "Fredoka", sans-serif;
+    background-color: #141B2D;
+  }
+  
+  section {
+    color: #fff;
+  }
+  
+  .bg-blue-dark {
+    background-color: #1B2542;
+    border-radius: 12px;
+  }
+
+  .body-card{
+      background-color: #161A2D;
+      border-radius: 8px;
+  }
+
+  .custom-search {
+    position: relative;
+  }
+  .custom-search-input {
+    width: 100%;
+    padding-right: 100px !important; 
+    box-sizing: border-box;
+  }
+  .custom-search-botton {
+    position: absolute;
+   
+   right: 70px;
+    line-height: 1 !important;
+    z-index: 4;
+  }
